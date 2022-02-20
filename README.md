@@ -9,3 +9,5 @@ Through this project I will demonstrate skills in using anchors for links, addin
 images to the different pages of the site.
 
 (After project thoughts)
+
+This was a very fun projcect, and it was a great way to practice using different tags to complete the project, using images, links bolding, and lists was great.
