@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="../styles.css">
         <title>Lasagna Recipe</title>
         <meta charset="UTF-8">
     </head>
 
-    <body>
-        <h1>Lasagna Recipe</h1>
+    <body id="las-background">
+        <h1 class="las title">Lasagna Recipe</h1>
+        <div style="text-align: center;">
+            <img id="las-iamge" src="../pictures/lasagna.jpeg"
+            width="400"
+            height="300"
+            alt="Final result of lasagna"></div>
 
-        <img src="../pictures/lasagna.jpeg" 
-        width="400" 
-        height="300" 
-        alt="Final result of lasagna">
-
-        <h2>Description:</h2>
-        <p> 
+        <h2 class="las description">Description:</h2>
+        <p class="las-paragraphs"> 
             This lasagna recipe will absolutlely blow you away,
             through the use of all natural ingredients, beatful
             preparation and execution. There is a reason why it 
@@ -23,8 +24,8 @@
         </p>
 
         <!-- Ingredients List-->
-        <h2>Ingredients:</h2>
-        <ul>
+        <h2 class="las ingredients">Ingredients:</h2>
+        <ul class="las-paragraphs">
             <li>1 pound sweet Italian Sausage</li>
             <li>3/4 pound of lean ground beef</li>
             <li>1/2 cup minces onion</li>
@@ -49,8 +50,8 @@
         </ul>
 
         <!-- Steps to make the lasagna-->
-        <h2>Steps:</h2>
-        <ol>
+        <h2 class="las steps">Steps:</h2>
+        <ol class="las-paragraphs">
             <li>In a Dutch oven, cook sausage, ground beef, onion
                 , and garlic over medium heat until well browned.
                 Stir in crushed tomatoes, tomato paste, tomato 
@@ -81,4 +82,7 @@
                 for 15 minutes before serving.</li>
         </ol>
     </body>
+    <footer>
+        <a class="return" href="../index.html">Main Page</a>
+    </footer>
 </html>
